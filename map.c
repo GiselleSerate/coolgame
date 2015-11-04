@@ -2,11 +2,14 @@
 #include <assert.h>
 #include <stdlib.h>
 #include <string.h>
-#include <linkedlist.h>
+#include "linkedlist.h"
 
-struct Graph *Graph_create(int roomCount, List array) {
-	//I malloc this how? The number of rooms isn't a constant that I can just define
-	int roomCount; 
+//ptrArray is a pointer that points to an array of pointers to List types
+struct Graph *Graph_create(int *ptrArray[]) {
+	struct Graph *map = malloc(sizeof(struct Graph));
+    assert(map != NULL);
+
+	//int roomCount; 
 	malloc(roomCount*sizeof(List));
 	struct List *rms;
 };

@@ -1,9 +1,9 @@
-#ifndef _linkedlist_h
-#define _linkedlist_h
+#ifndef _map_h
+#define _map_h
 
 typedef struct {
 	int roomCount;
-	struct List *rms;
+	struct List *rms = [];
 } Graph;
 
 #endif
