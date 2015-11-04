@@ -3,7 +3,8 @@
 
 typedef struct {
 	int roomCount;
-	struct List *rms = [];
+	//But I want an array of these pointers; I could just malloc extra space? That seems unintelligent.
+	struct List *rms;
 } Graph;
 
 #endif
