@@ -13,8 +13,8 @@ int main(int argc, char *argv[]) {
 	//following line is iffy
 	int* listArray[] = {one,two};
 	// int *myPointer = listArray;
-	printf("listArray is %d", **listArray);
-	printf("listArray is %d", *listArray[1]);
+	printf("listArray is %d\n", **listArray);
+	printf("listArray is %d\n", *listArray[1]);
 
 	// printf("listArray is %d", *listArray[0]);
 	//struct Graph *myMap = Graph_create(myPointer);
