@@ -4,7 +4,7 @@
 struct NodeStruct;
 typedef struct NodeStruct {
 	struct NodeStruct *next;
-	char *arc_label;
+	char *arcLabel;
 	//Are we referring the rooms as structs themselves or are we referring to them as character strings? 
 	char rm;
 } Node;
